@@ -81,7 +81,7 @@ Twitter 에서 인식을 하지 못한다.
 <!-- Open Graph (Facebook, Linkedin) https://ogp.me/#types -->
 <!-- https://ourcodeworld.com/public-media/articles/articleocw-56d1a6901b773.png -->
 <meta property="og:type" content="website" />
-<meta property="og:title" content="코딩독학 - 느려도 꾸준히" />
+<meta property="og:title" content="개발전 - 느려도 꾸준히" />
 <meta property="og:description" content="느려도 꾸준히" />
 <meta property="og:image" content="{{ site.url }}/assets/img/infos/kobugi-left-small5.png" />
 <meta property="og:url" content="{{ site.url }}" />
@@ -90,7 +90,7 @@ Twitter 에서 인식을 하지 못한다.
 <!-- https://csharpcorner-mindcrackerinc.netdna-ssl.com/article/twitter-cards-implementation-with-websites/Images/summary_card_tweet.png -->
 <!-- Card 종류 : Summary, Photo, Player -->
 <meta name="twitter:card" content="Summary" />
-<meta name="twitter:title" content="코딩독학 - 느려도 꾸준히" />
+<meta name="twitter:title" content="개발전 - 느려도 꾸준히" />
 <meta name="twitter:description" content="느려도 꾸준히" />
 <meta name="twitter:image" content="{{ site.url }}/assets/img/infos/kobuk.png" />
 <meta name="twitter:url" content="{{ site.url }}" />
