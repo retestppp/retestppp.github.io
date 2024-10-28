@@ -1,0 +1,72 @@
+.tooltip {
+    position: relative;
+    display: inline;
+    color: #007bff;
+  }
+  
+  .tooltip-description {
+    font-size: 0.8em;
+    color: #444444;
+  }
+
+  .tooltip .tooltiptext {
+    display: none;
+    visibility: hidden;       /* 이벤트가 없으면 툴팁 영역을 숨김 */
+    background-color: #051628;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0px 5px 10px;
+    font-size: 0.8em;
+    overflow: auto;
+    position: absolute;       /* 절대 위치를 사용 */
+    z-index: 1;
+  }
+
+  .tooltip .tooltip-no {
+    top: -0.5em;
+    line-height: 0;
+    font-size: 75%;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;      /* hover 이벤트 발생시 영역을 보여줌 */
+  }
+
+  .tooltip .tooltip-top {
+    padding: 1px 5px;
+    max-width: 800px;
+    width: max-content;
+    border: solid #c7c7c7;
+    z-index: 9999;
+  }
+
+
+  @media (max-width: 600px) {
+    .tooltip .tooltiptext {
+        font-size: 0.7em;
+    }
+
+    .tooltip-description {
+      font-size: 0.7em;
+    }
+
+    .tooltip .tooltip-top {
+      max-width: 300px;
+    }
+  }
+   /* 다크 모드에 적용할 스타일 정의 */
+  /* @media (prefers-color-scheme: dark) {
+ 
+
+    .tooltip-description {
+      color: #c7c7c7;
+    }
+
+    .tooltip .tooltiptext {
+      background-color: #555454;
+      color: #c7c7c7;
+    }
+  } */
