@@ -260,9 +260,9 @@ HTML은 사진, 오디오, 비디오 등 다양한 멀티미디어 리소스를 
 - **\<img>**
   - 문서에 이미지를 넣는다.
   - ```
-    <img src="https://martinkang.github.io/assets/img/infos/kobugi-left-small2.png" height=100px width=200px>
+    <img src="https://martinkang.github.io/assets/img/infos/kobugi-left-small4.png" height=100px width=200px>
     ```
-    - <img src="https://martinkang.github.io/assets/img/infos/kobugi-left-small2.png" height=100px width=200px>
+    - <img src="https://martinkang.github.io/assets/img/infos/kobugi-left-small4.png" height=100px width=200px>
 
  <br>
 
