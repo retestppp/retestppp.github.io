@@ -83,7 +83,7 @@ Twitter 에서 인식을 하지 못한다.
 <meta property="og:type" content="website" />
 <meta property="og:title" content="코딩독학 - 느려도 꾸준히" />
 <meta property="og:description" content="느려도 꾸준히" />
-<meta property="og:image" content="{{ site.url }}/assets/img/infos/kobugi-left-small2.png" />
+<meta property="og:image" content="{{ site.url }}/assets/img/infos/kobugi-left-small3.png" />
 <meta property="og:url" content="{{ site.url }}" />
 
 <!-- Twitter card (Twitter) -->
