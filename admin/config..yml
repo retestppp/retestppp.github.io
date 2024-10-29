@@ -36,7 +36,20 @@ collections:
           name: "tags",
           widget: "select",
           multiple: true,
-          options: [github, blog, Front-End, jekyll, html, css],
+          options:
+            [
+              github,
+              blog,
+              Front-End,
+              Back-End,
+              jekyll,
+              html,
+              css,
+              SAPUI5,
+              CAP,
+              Java,
+              JavaScript,
+            ],
         }
       - {
           label: "Image Tag",
@@ -75,7 +88,20 @@ collections:
           name: "tags",
           widget: "select",
           multiple: true,
-          options: [github, blog, Front-End, jekyll, html, css],
+          options:
+            [
+              github,
+              blog,
+              Front-End,
+              Back-End,
+              jekyll,
+              html,
+              css,
+              SAPUI5,
+              CAP,
+              Java,
+              JavaScript,
+            ],
         }
       - {
           label: "Image Tag",
@@ -114,7 +140,20 @@ collections:
           name: "tags",
           widget: "select",
           multiple: true,
-          options: [github, blog, Front-End, jekyll, html, css],
+          options:
+            [
+              github,
+              blog,
+              Front-End,
+              Back-End,
+              jekyll,
+              html,
+              css,
+              SAPUI5,
+              CAP,
+              Java,
+              JavaScript,
+            ],
         }
       - {
           label: "Image Tag",
