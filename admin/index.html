@@ -16,13 +16,7 @@
       document.addEventListener("DOMContentLoaded", function () {
         // Initialize Netlify Identity if available
         if (window.netlifyIdentity) {
-          window.netlifyIdentity.on("init", (user) => {
-            if (!user) {
-              window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-              });
-            }
-          });
+          window.netlifyIdentity.on("init", (user) => {});
         }
 
         // Your custom CMS initialization logic
