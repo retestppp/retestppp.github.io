@@ -1,0 +1,46 @@
+<!-- admin/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content Manager</title>
+    <!-- Load Netlify CMS with defer attribute -->
+    <script
+      src="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Initialize Netlify Identity if available
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", (user) => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+
+        // Your custom CMS initialization logic
+        try {
+          const contentElement = document.getElementById("content");
+          if (contentElement) {
+            // Example code to append content
+            const exampleNode = document.createElement("div");
+            exampleNode.innerText = "Netlify CMS is ready!";
+            contentElement.appendChild(exampleNode);
+          }
+        } catch (error) {
+          console.error("Error initializing CMS:", error);
+        }
+      });
+    </script>
+
+    <!-- Example content element -->
+    <div id="content"></div>
+  </body>
+</html>

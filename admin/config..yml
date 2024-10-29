@@ -1,0 +1,68 @@
+backend:
+  name: git-gateway
+  repo: "retestppp/retestppp.github.io" # GitHub 사용자명과 저장소명
+  branch: main # 콘텐츠가 저장될 브랜치
+
+media_folder: "assets/img" # Folder where images will be uploaded
+public_folder: "/assets/img" # Path to access images in posts
+
+collections:
+  - name: "bugs"
+    label: "Bugs"
+    folder: "_posts/Bugs"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "string", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - {
+          label: "Date",
+          name: "date",
+          widget: "datetime",
+          dateFormat: "YYYY-MM-DD",
+          timeFormat: "HH:mm:ss Z",
+        }
+      - { label: "Categories", name: "categories", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "develop"
+    label: "Develop"
+    folder: "_posts/Develop"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "string", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - {
+          label: "Date",
+          name: "date",
+          widget: "datetime",
+          dateFormat: "YYYY-MM-DD",
+          timeFormat: "HH:mm:ss Z",
+        }
+      - { label: "Categories", name: "categories", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "study"
+    label: "Study"
+    folder: "_posts/Study"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "string", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - {
+          label: "Date",
+          name: "date",
+          widget: "datetime",
+          dateFormat: "YYYY-MM-DD",
+          timeFormat: "HH:mm:ss Z",
+        }
+      - { label: "Categories", name: "categories", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true }
+      - { label: "Body", name: "body", widget: "markdown" }
