@@ -170,7 +170,7 @@ header {
 }
 
 .sidebar-brand > a > img {
-  width: 100%;
+  width: 70%;
   height: auto;
 }
 
@@ -389,7 +389,7 @@ header.home {
   .sidebar-brand > a > img {
     visibility: hidden;
     display: none;
-    width: 80% !important;
+    width: 0;
     height: 0%;
   }
   .lead {
