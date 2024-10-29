@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   repo: "retestppp/retestppp.github.io" # GitHub 사용자명과 저장소명
-  branch: main # 콘텐츠가 저장될 브랜치
+  branch: main # 콘텐츠가 저장될 브랜치 이름
 
 media_folder: "assets/img" # Folder where images will be uploaded
 public_folder: "/assets/img" # Path to access images in posts
