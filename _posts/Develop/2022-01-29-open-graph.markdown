@@ -92,7 +92,7 @@ Twitter 에서 인식을 하지 못한다.
 <meta name="twitter:card" content="Summary" />
 <meta name="twitter:title" content="개발전 - 느려도 꾸준히" />
 <meta name="twitter:description" content="느려도 꾸준히" />
-<meta name="twitter:image" content="{{ site.url }}/assets/img/infos/kobuk.png" />
+<meta name="twitter:image" content="{{ site.url }}/assets/img/infos/kobuk2.png" />
 <meta name="twitter:url" content="{{ site.url }}" />
 ```
 
