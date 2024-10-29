@@ -19,16 +19,26 @@ function initHiddenClass() {
 }
 
 function initHiddenAttribute() {
-  document.getElementById("content-tag-list-id-develop").hidden = true;
-  document.getElementById("content-tag-list-id-bugs").hidden = true;
-  document.getElementById("content-tag-list-id-study").hidden = true;
+  const devTag = document.getElementById("content-tag-list-id-develop");
+  const bugTag = document.getElementById("content-tag-list-id-bugs");
+  const studyTag = document.getElementById("content-tag-list-id-study");
+  const devCategory = document.getElementById("category-develop");
+  const bugCategory = document.getElementById("category-bugs");
+  const studyCategory = document.getElementById("category-study");
 
-  document.getElementById("category-develop").hidden = true;
-  document.getElementById("category-bugs").hidden = true;
-  document.getElementById("category-study").hidden = true;
+  if (devTag)
+    document.getElementById("content-tag-list-id-develop").hidden = true;
+  if (bugTag) document.getElementById("content-tag-list-id-bugs").hidden = true;
+  if (studyTag)
+    document.getElementById("content-tag-list-id-study").hidden = true;
+
+  if (devCategory) document.getElementById("category-develop").hidden = true;
+  if (bugCategory) document.getElementById("category-bugs").hidden = true;
+  if (studyCategory) document.getElementById("category-study").hidden = true;
 }
 
 function showTagByCategory(aCategory) {
+  const tag = document.getElementById("content-tag-list-id-" + aCategory);
   if (aCategory != "") {
     let sTags = document.querySelectorAll(".tag-wrapper > .tag-box");
     for (let i = 0; i < sTags.length; i++) {
@@ -42,7 +52,10 @@ function showTagByCategory(aCategory) {
       }
     }
 
-    document.getElementById("content-tag-list-id-" + aCategory).hidden = false;
+    if (tag)
+      document.getElementById(
+        "content-tag-list-id-" + aCategory
+      ).hidden = false;
   } else {
     let sTags = document.querySelectorAll(".tag-wrapper > .tag-box");
     let sTagLists = document.getElementsByClassName("content-tag-list");
@@ -113,8 +126,8 @@ window.addEventListener("hashchange", () => {
   setTags(sCategory);
 });
 
-/* https://programmingsummaries.tistory.com/380 
-   https://ifuwanna.tistory.com/63 
+/* https://programmingsummaries.tistory.com/380
+   https://ifuwanna.tistory.com/63
 뒤로 가기 버튼으로 돌아가면 BFCache 를 사용하기 때문에 $(document).ready 호출이 발생하지 않는다.
 이 캐쉬에 상관없이 pageshow 이벤트가 발생하기 때문에 이 이벤트를 사용한다. */
 window.addEventListener("pageshow", (event) => {
