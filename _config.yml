@@ -24,8 +24,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   신기해도 좋아, 꾸준히 해보는 개발자
 # baseurl: "/" # the subpath of your site, e.g. /blog
 # url: "http://ejjoo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-url: "https://martinkang.github.io"
-github_username: martinkang
+# url: "https://martinkang.github.io"
+# github_username: martinkang
+url: "https://retestppp.github.io/"
+github_username: retestppp
 highlighter: rouge
 svg:
   optimize: true
