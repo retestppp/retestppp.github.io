@@ -9,7 +9,7 @@ img-tag: blog
 ---
 
 1. Github 에 리포지토리를 만든다.
-2. ![alt text](image.png)
+2. ![alt text](image-0.png)
 3. 이름은 본인 계정명.github.io 로 만든다.
 4. Visual StudioCode에서 깃 클론을 받고 해당 폴더를 연다.
 5. 루트에 README.md를 추가하고 커밋하고 푸시한다.
