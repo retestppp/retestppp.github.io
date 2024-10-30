@@ -162,3 +162,4 @@ collections:
           options: [blog, github, jekyll, html, css, study],
         }
       - { label: "Body", name: "body", widget: "markdown" }
+      # - { label: "image", name: "image", widget: "image" }
