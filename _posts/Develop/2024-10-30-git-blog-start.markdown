@@ -1,62 +1,62 @@
 ---
 layout: post
-title: "[GitHub Blog - 1] GitHub Blog 시작"
+title: "[GitHub Blog - 1] GitHub Blog 시작 - Ruby설치"
 description: "GitHub 블로그 개발 순서와 목표. Front End 공부와 개발 포트폴리오를 만들어 보자."
-date: 2021-12-19 19:10:00 +0900
+date: 2024-10-30 16:00:00 +0900
 categories: develop
 tags: [blog, Front-End]
 img-tag: blog
 ---
 
 1. Github 에 리포지토리를 만든다.
-2. 1. 이름은 본인 계정명.github.io 로 만든다.
-   2. Visual StudioCode에서 깃 클론을 받고 해당 폴더를 연다.
-   3. 루트에 README.md를 추가하고 커밋하고 푸시한다.
-   4.
+2. ![alt text](image.png)
+3. 이름은 본인 계정명.github.io 로 만든다.
+4. Visual StudioCode에서 깃 클론을 받고 해당 폴더를 연다.
+5. 루트에 README.md를 추가하고 커밋하고 푸시한다.
+6. ![alt text](image-1.png)
+7. 루비를 다운받는다. https://rubyinstaller.org/downloads/archives/ 여기서 Ruby+Devkit 3.0.4-1 (x64) 을 받고 실행해서 엔터만 쳐서 설치한다.
+8. ![alt text](image-2.png)
+9. 설치 후 루비 버전 체크 ruby -v 8.
+10. ![alt text](image-3.png)
+11. 본인 깃 블로그 접속 https://본인계정명.github.io/ 접속: https://retestppp.github.io/
+12. ![alt text](image-4.png)
+13. 인덱스 페이지 추가
 
-   5. 루비를 다운받는다. https://rubyinstaller.org/downloads/archives/ 여기서 Ruby+Devkit 3.0.4-1 (x64) 을 받고 실행해서 엔터만 쳐서 설치한다.
-   6.
+```
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h1>Home</h1>
+    <p>환영합니다. 깃 블로그 시작에 오신걸</p>
+    <p>Welcome to the home page.</p>
+    <p><a href="about.php">About</a></p>
+</html>
+```
 
-   7. 설치 후 루비 버전 체크 ruby -v
-   8.
-   9. 본인 깃 블로그 접속 https://본인계정명.github.io/ 접속: https://retestppp.github.io/
-   10.
-   11. 인덱스 페이지 추가
-   <html>
-   <head>
-       <title>Home</title>
-   </head>
-   <body>
-       <h1>Home</h1>
-       <p>환영합니다. 깃 블로그 시작에 오신걸</p>
-       <p>Welcome to the home page.</p>
-       <p><a href="about.php">About</a></p>
-   </html>
-
-   12.
-
-   13. 깃 블로그 새로고침 해서 확인
-   14.
-   15. Git bash를 열고 https://github.com/martinkang/martinkang.github.io.git 을 클론 받는다. git clone https://github.com/martinkang/martinkang.github.io.git 입력
-   16. 위의 리포지토리는 코딩독학님께서 만든것을 사용하는 것이다.
-   17.
-   18. 받아진 파일들중 .git 폴더만 빼고 위에서 만든 개인 리포지토리와 연결된 파일에 복사 붙여넣는다.
-   19.
-   20. 그리고 변경사항을 커밋하고 푸시한다.
-   21. CMD 창에서 본인의 리포지토리와 연결된 폴더로 이동한다.
-   22.
-   23. Bundler 다운받기(버전 2.3.1) gem install bundler:2.3.1
-   24.
-   25. bundle install 하기
-   26.
-   27. jekyll 을 다운받기 gem install jekyll bundle
-   28.
-
-   29.
-   30. 로컬로 서버 실행 하기 bundle exec jekyll serve --watch
-   31.
-   32. http://127.0.0.1:4000 에 접속
-   33.
+14. ![alt text](image-5.png)
+15. 깃 블로그 새로고침 해서 확인
+16. ![alt text](image-6.png)
+17. Git bash를 열고 https://github.com/martinkang/martinkang.github.io.git 을 클론 받는다. git clone https://github.com/martinkang/martinkang.github.io.git 입력
+18. 위의 리포지토리는 코딩독학님께서 만든것을 사용하는 것이다.
+19. ![alt text](image-7.png)
+20. 받아진 파일들중 .git 폴더만 빼고 위에서 만든 개인 리포지토리와 연결된 파일에 복사 붙여넣는다.
+21. ![alt text](image-8.png)
+22. 그리고 변경사항을 커밋하고 푸시한다.
+23. CMD 창에서 본인의 리포지토리와 연결된 폴더로 이동한다.
+24. ![alt text](image-9.png)
+25. Bundler 다운받기(버전 2.3.1) gem install bundler:2.3.1
+26. ![alt text](image-10.png)
+27. bundle install 하기
+28. ![alt text](image-11.png)
+29. jekyll 을 다운받기 gem install jekyll bundle
+30. ![alt text](image-12.png)
+31. ![alt text](image-13.png)
+32. 로컬로 서버 실행 하기 bundle exec jekyll serve --watch
+33. ![alt text](image-14.png)
+34. http://127.0.0.1:4000 에 접속
+35. ![alt text](image-15.png)
 
 MSYS2 could not be found. Please run 'ridk install'
 or download and install MSYS2 manually from https://msys2.github.io/
