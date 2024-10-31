@@ -9,17 +9,17 @@ img-tag: blog
 ---
 
 1. Github 에 리포지토리를 만든다.
-2. ![alt text](image-0.png)
+2. ![alt text](/assets/img/post-img/start-git-blog-ruby//assets/img/post-img/start-git-blog-ruby/image-0.png)
 3. 이름은 본인 계정명.github.io 로 만든다.
 4. Visual StudioCode에서 깃 클론을 받고 해당 폴더를 연다.
 5. 루트에 README.md를 추가하고 커밋하고 푸시한다.
-6. ![alt text](image-1.png)
-7. 루비를 다운받는다. https://rubyinstaller.org/downloads/archives/ 여기서 Ruby+Devkit 3.0.4-1 (x64) 을 받고 실행해서 엔터만 쳐서 설치한다.
-8. ![alt text](image-2.png)
+6. ![alt text](/assets/img/post-img/start-git-blog-ruby/image-1.png)
+7. 루비를 다운받는다. https://rubyinstaller.org/downloads/archives/ 여기서 Ruby+Devkit 3.0.4-1 (/assets/img/post-img/start-git-blog-ruby/x64) 을 받고 실행해서 엔터만 쳐서 설치한다.
+8. ![alt text](/assets/img/post-img/start-git-blog-ruby/image-2.png)
 9. 설치 후 루비 버전 체크 ruby -v 8.
-10. ![alt text](image-3.png)
+10. ![alt text](/assets/img/post-img/start-git-blog-ruby/image-3.png)
 11. 본인 깃 블로그 접속 https://본인계정명.github.io/ 접속: https://retestppp.github.io/
-12. ![alt text](image-4.png)
+12. ![alt text](/assets/img/post-img/start-git-blog-ruby/image-4.png)
 13. 인덱스 페이지 추가
 
 ```
@@ -35,35 +35,36 @@ img-tag: blog
 </html>
 ```
 
-14. ![alt text](image-5.png)
+14. ![alt text](/assets/img/post-img/start-git-blog-ruby/image-5.png)
 15. 깃 블로그 새로고침 해서 확인
-16. ![alt text](image-6.png)
+16. ![alt text](/assets/img/post-img/start-git-blog-ruby/image-6.png)
 17. Git bash를 열고 https://github.com/martinkang/martinkang.github.io.git 을 클론 받는다. git clone https://github.com/martinkang/martinkang.github.io.git 입력
 18. 위의 리포지토리는 코딩독학님께서 만든것을 사용하는 것이다.
-19. ![alt text](image-7.png)
+19. ![alt text](/assets/img/post-img/start-git-blog-ruby/image-7.png)
 20. 받아진 파일들중 .git 폴더만 빼고 위에서 만든 개인 리포지토리와 연결된 파일에 복사 붙여넣는다.
-21. ![alt text](image-8.png)
+21. ![alt text](/assets/img/post-img/start-git-blog-ruby/image-8.png)
 22. 그리고 변경사항을 커밋하고 푸시한다.
 23. CMD 창에서 본인의 리포지토리와 연결된 폴더로 이동한다.
-24. ![alt text](image-9.png)
-25. Bundler 다운받기(버전 2.3.1) gem install bundler:2.3.1
-26. ![alt text](image-10.png)
+24. ![alt text](/assets/img/post-img/start-git-blog-ruby/image-9.png)
+25. Bundler 다운받기(/assets/img/post-img/start-git-blog-ruby/버전 2.3.1) gem install bundler:2.3.1
+26. ![alt text](/assets/img/post-img/start-git-blog-ruby/image-10.png)
 27. bundle install 하기
-28. ![alt text](image-11.png)
+28. ![alt text](/assets/img/post-img/start-git-blog-ruby/image-11.png)
 29. jekyll 을 다운받기 gem install jekyll bundle
-30. ![alt text](image-12.png)
-31. ![alt text](image-13.png)
+30. ![alt text](/assets/img/post-img/start-git-blog-ruby/image-12.png)
+31. ![alt text](/assets/img/post-img/start-git-blog-ruby/image-13.png)
 32. 로컬로 서버 실행 하기 bundle exec jekyll serve --watch
-33. ![alt text](image-14.png)
+33. ![alt text](/assets/img/post-img/start-git-blog-ruby/image-14.png)
 34. http://127.0.0.1:4000 에 접속
-35. ![alt text](image-15.png)
+35. ![alt text](/assets/img/post-img/start-git-blog-ruby/image-15.png)
 
+```
 MSYS2 could not be found. Please run 'ridk install'
 or download and install MSYS2 manually from https://msys2.github.io/
 
 C:\Users\kwangjinpyo>ruby -version
-ruby 3.3.5 (2024-09-03 revision ef084cc8f4) [x64-mingw-ucrt]
--e:1:in `<main>': undefined local variable or method `rsion' for main (NameError)
+ruby 3.3.5 (/assets/img/post-img/start-git-blog-ruby/2024-09-03 revision ef084cc8f4) [x64-mingw-ucrt]
+-e:1:in `<main>': undefined local variable or method `rsion' for main (/assets/img/post-img/start-git-blog-ruby/NameError)
 
 rsion
 ^^^^^
@@ -117,12 +118,13 @@ Successfully installed google-protobuf-4.28.3-x64-mingw-ucrt
 Successfully installed sass-embedded-1.80.4-x64-mingw-ucrt
 Successfully installed jekyll-sass-converter-3.0.0
 Successfully installed concurrent-ruby-1.3.4
-PSA: I18n will be dropping support for Ruby < 3.2 in the next major release (April 2025), due to Ruby's end of life for 3.1 and below (https://endoflife.date/ruby). Please upgrade to Ruby 3.2 or newer by April 2025 to continue using future versions of this gem.
+PSA: I18n will be dropping support for Ruby < 3.2 in the next major release (/assets/img/post-img/start-git-blog-ruby/April 2025), due to Ruby's end of life for 3.1 and below (/assets/img/post-img/start-git-blog-ruby/https://endoflife.date/ruby). Please upgrade to Ruby 3.2 or newer by April 2025 to continue using future versions of this gem.
 Successfully installed i18n-1.14.6
 MSYS2 could not be found. Please run 'ridk install'
 or download and install MSYS2 manually from https://msys2.github.io/
 
 C:\Users\kwangjinpyo>
+```
 
 Headless CMS 블로그 만들기 https://duinaru.github.io/posts/2020-09-02-make-blog-with-netlifycms-netlify/
 미리 알아두어야 할 내용 1. 정적 사이트 생성기로 만든 블로그는 markdown형식의 파일로 글을 관리하고 매번 빌드해서 배포 해주어야 하죠. 이를 쉽게 하기위해 Netlify CMS 와 Netlify 를 넣어보았습니다. 2. Netlify CMS
@@ -145,10 +147,10 @@ Headless CMS 블로그 만들기 1. 위에서 만든 프로젝트의 루트에 a
         <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         <script>
-          if (window.netlifyIdentity) {
-            window.netlifyIdentity.on("init", (user) => {
-              if (!user) {
-                window.netlifyIdentity.on("login", () => {
+          if (/assets/img/post-img/start-git-blog-ruby/window.netlifyIdentity) {
+            window.netlifyIdentity.on(/assets/img/post-img/start-git-blog-ruby/"init", (/assets/img/post-img/start-git-blog-ruby/user) => {
+              if (/assets/img/post-img/start-git-blog-ruby/!user) {
+                window.netlifyIdentity.on(/assets/img/post-img/start-git-blog-ruby/"login", (/assets/img/post-img/start-git-blog-ruby/) => {
                   document.location.href = "/admin/";
                 });
               }
@@ -327,7 +329,7 @@ Headless CMS 블로그 만들기 1. 위에서 만든 프로젝트의 루트에 a
         c. https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js 의 경우 컨텐츠를 블로그 폴더가 아닌 앞으로 생성할 블로그의 컨텐츠 관리페이지에서 사용하기 위한 스크립트로 decap-cms 3.0 을 가져와야한다. 위에서도 이야기 했지만 netlify-cms로 하면 한글지원이 안되고 키보드 반응도 이상하기 때문에 이미 망해버린 Netlify CMS  를 사용하지 않도록 주의가 필요하다.
         d. https://identity.netlify.com/v1/netlify-identity-widget.js 의 경우 컨텐츠 관리 페이지를 들어갈 때 https://app.netlify.com/ 가입한 계정으로 로그인을 해야 하는데 그 기능 사용하기 위해서 사용한다.
 
-    6. https://app.netlify.com/ 에 가입을 진행한다.  (본인은 이메일을 사용함)
+    6. https://app.netlify.com/ 에 가입을 진행한다.  (/assets/img/post-img/start-git-blog-ruby/본인은 이메일을 사용함)
     7.
     8. 가입을 하고 나면 https://app.netlify.com/teams/pkjhj9746/sites 과 같이  https://app.netlify.com/teams/계정명/sites 로 이동하게 된다.
     9. 새로운 사이트를 만들기 위해 Add new site 클릭
@@ -338,7 +340,7 @@ Headless CMS 블로그 만들기 1. 위에서 만든 프로젝트의 루트에 a
     14.
     15. 연결하고자 하는 깃허브 프로젝트 리포지토리를 선택
     16.
-    17. 필요한 입력들을 입력하고 Deploy 리포지토리(retestppp.github.io) 클릭
+    17. 필요한 입력들을 입력하고 Deploy 리포지토리(/assets/img/post-img/start-git-blog-ruby/retestppp.github.io) 클릭
     18.
     19. 이때 중요한 것이 브랜치를 어떤 브랜치로 할 것인지 정해야 한다. 오늘날 기본값음 main이다.
     20. Build command도 그냥 변경하지 않고 그대로 두면 된다.
