@@ -14,9 +14,9 @@ img-tag: study
 3. 그리고 테스트 케이스를 통과하기 위한 최소한의 코드를 생성한다. 
 4. 마지막으로 작성한 코드를 표준에 맞도록 리펙토링 한다.  
 ### 기존 개발
-![alt text](../../assets/img/study-img/TDD/TDD01.png)
+![alt text](/assets/img/study-img/TDD/TDD01.png)
 ### TDD
-![alt text](../../assets/img/study-img/TDD/TDD02.png)
+![alt text](/assets/img/study-img/TDD/TDD02.png)
 ### 즉 TDD는 개발을 하기전에 테스트 코드를 작성하고 해당 테스트를 통과 한 코드들만 개발코드로 추가하는 것이다
 <br>
 
@@ -89,8 +89,8 @@ img-tag: study
 
 ### @DisplayName
 - @Test 어노테이션과 함께 사용하는 것으로 이름을 바꿔준다. 
-![alt text](../../assets/img/study-img/TDD/TDD03.png)
-![alt text](../../assets/img/study-img/TDD/TDD04.png)
+![alt text](/assets/img/study-img/TDD/TDD03.png)
+![alt text](/assets/img/study-img/TDD/TDD04.png)
 
 
 ### assert 메소드
@@ -150,7 +150,7 @@ img-tag: study
 2. @Autowired 어노테이션을 제거하고, Lombok의 @Slf4j 어노테이션만을 사용하여 로깅을 수행하는 것이 좋다. 
 3. logger 변수에 대한 참조를 모두 log로 변경하여 일관된 로깅 방식을 사용하는 것을 권장된다.
 4. 단 logger를 사용하려면 아래처럼 선언해서 사용할 수 있다. 
-![alt text](../../assets/img/study-img/TDD/TDD05.png)
+![alt text](/assets/img/study-img/TDD/TDD05.png)
 
 <br><br>
 - 너무 길어져서 다음 포스팅으로 넘어가겠습니다.
